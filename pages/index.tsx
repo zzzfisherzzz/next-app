@@ -29,7 +29,7 @@ const Home = ({ socials }) => (
     <Head>
       <title>Home</title>
     </Head>
-    <Heading text="Artem Borodovoi" />
+    <Heading tag="h1" text="Artem Borodovoi" />
     <Socials socials={socials} />
   </div>
 );
