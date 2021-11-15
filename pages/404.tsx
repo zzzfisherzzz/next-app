@@ -19,7 +19,7 @@ const Error = () => {
         <title>Error</title>
       </Head>
       <div>
-        <Heading text="404" />
+        <Heading tag="h1" text="404" />
         <Heading tag="h2" text="Something is going wrong..." />
       </div>
     </div>
