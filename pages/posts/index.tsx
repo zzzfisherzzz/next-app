@@ -23,7 +23,7 @@ const Posts = ({ posts }) => {
       <Head>
         <title>Posts</title>
       </Head>
-      <Heading text="Posts list:" />
+      <Heading tag="h1" text="Posts list:" />
       <ul>
         {posts &&
           posts.map(({ id, title }) => (
